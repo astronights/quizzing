@@ -548,7 +548,9 @@ textarea.input-field {
 
 .footer { padding-block: 40px; }
 
-.copyright { margin-block-end: 12px; }
+.copyright { 
+  margin-block-end: 12px;
+}
 
 .footer .social-link { color: var(--charcoal); }
 
@@ -661,7 +663,9 @@ textarea.input-field {
     align-items: center;
   }
 
-  .copyright { margin-block-end: 0; }
+  .copyright { 
+    margin-block-end: 0;
+  }
 
 }
 
