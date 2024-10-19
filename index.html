@@ -6,35 +6,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- 
-    - primary meta tags
-  -->
-  <title>Quizzing SG</title>
+  <title>Quiz Singapore</title>
   <meta name="title" content="Quizzing in Singapore - Host your next quiz with me.">
   <meta name="description" content="Host school, university, corporate quizzes with me!">
 
-  <!-- 
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/svg+xml">
 
-  <!-- 
-    - google font link
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
 
-  <!-- 
-    - custom css link
-  -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!-- 
-    - preload images
-  -->
   <link rel="preload" as="image" href="./assets/images/hero.gif">
-  <link rel="preload" as="image" href="./assets/images/Blog.svg">
 
 </head>
 
@@ -48,14 +32,14 @@
     <div class="container">
 
       <a href="#" class="logo">
-        <img src="./assets/images/quizzing_dark.png" width="15%" alt="Quizzing">
+        <img src="./assets/images/logo-quizzing-dark.png" width="20%" alt="Quizzing">
       </a>
 
       <nav class="navbar" data-navbar>
 
         <div class="navbar-top">
           <a href="#" class="logo">
-            <img src="./assets/images/quizzing_light.png" width="64" height="24" alt="Quizzing">
+            <img src="./assets/images/logo-quizzing-light.png" width="64" height="24" alt="Quizzing">
           </a>
 
           <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
@@ -63,18 +47,22 @@
           </button>
         </div>
 
-        <ul class="navbar-list">
+        <ul class="navbar-list" style="min-width: 600px;">
 
           <li>
-            <a href="#" class="navbar-link">What is Quizzing?</a>
+            <a href="#about-quizzing" class="navbar-link">About Quizzing</a>
           </li>
 
           <li>
-            <a href="#" class="navbar-link">About Me</a>
+            <a href="#why-choose-me" class="navbar-link">Why Choose Me?</a>
           </li>
 
           <li>
-            <a href="#" class="navbar-link">Contact</a>
+            <a href="#community" class="navbar-link">Community</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Get In Touch</a>
           </li>
 
         </ul>
@@ -96,10 +84,6 @@
     </div>
   </header>
 
-
-
-
-
   <main>
     <article>
 
@@ -110,11 +94,10 @@
       <section class="section hero" aria-label="home">
         <div class="container">
 
-          <figure class="hero-banner">
-            <img src="./assets/images/hero.gif" width="560" height="540" alt="Julia" class="w-100"
-              data-reveal="top">
+          <figure class="hero-banner" style="max-width: 400px;">
+            <img src="./assets/images/hero.gif" width="560" height="540" alt="Julia" class="w-100" data-reveal="top">
 
-            <img src="./assets/images/hero-shape.svg" width="203" height="91" alt="1000+ Questions made" class="shape"
+            <img src="./assets/images/hero-shape.svg" width="183" height="91" alt="1000+ Questions made" class="shape"
               data-reveal="top" data-reveal-delay="0.25s">
           </figure>
 
@@ -125,13 +108,13 @@
             </h1>
 
             <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
-              Hello! I'm Shubhankar, an avid quizzing enthusiast currently based in Singapore. <br/>
+              Hello! I'm Shubhankar, an avid quizzing enthusiast currently based in Singapore. <br />
               With years of experience, I bring excitement and professionalism to every event. <br />
               Contact me to host your next quiz!
             </p>
 
             <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
-              <a href="#what-is-quizzing" class="btn btn-primary">Quizzing?</a>
+              <a href="#why-choose-me" class="btn btn-primary">What I Offer?</a>
 
               <a href="#" class="btn btn-secondary">Contact Me</a>
             </div>
@@ -146,7 +129,7 @@
         - #PROJECT
       -->
 
-      <section class="section project" aria-labelledby="project-label">
+      <section class="section project" id="about-quizzing" aria-labelledby="project-label">
         <div class="container">
 
           <div class="title-wrapper" data-reveal="top">
@@ -155,13 +138,13 @@
               <h2 class="h2 section-title" id="project-label">What is Quizzing?</h2>
 
               <p class="section-text">
-                Quizzing is more than just answering random trivia questions—it's an exhilarating journey that combines knowledge, creativity, and teamwork! 
-                Imagine standing on stage with your friends, working together to solve intriguing puzzles, tackle challenges, and compete for glory. 
-                Here’s what makes quizzing an exciting and unforgettable experience.
+                Quizzing isn't just about answering trivia—it's a thrilling adventure that blends
+                knowledge, creativity, and teamwork! Picture yourself on stage with friends, solving
+                intriguing puzzles, deciphering clues, and compete for victory. It's an electrifying
+                experience that goes beyond the ordinary and leaves you craving more. <br />
+                Here's why quizzing is an unforgettable journey:
               </p>
             </div>
-
-            <a href="#" class="btn btn-secondary">See All Projects</a>
 
           </div>
 
@@ -172,28 +155,24 @@
 
                 <div class="card-content" data-reveal="left">
 
-                  <p class="card-tag" style="color: #a07cc5">Thinking Outside the Box</p>
+                  <p class="card-tag" style="color: #a07cc5">A World of Learning</p>
 
-                  <h3 class="h3 card-title">Thirst for Knowledge</h3>
+                  <h3 class="h3 card-title">A Quest for Knowledge</h3>
 
                   <p class="card-text">
-                    Quizzing invites you to dive deep into a wide array of topics, covering everything under the sun. 
-                    Modern quizzing does not revolve around just history or science but dives into <strong>pop culture</strong>, 
-                    with questions ranging from ancient writing systems, to latest tiktok trends, and sometimes even joining the dots between them. 
-                    Whether you’re a fan of renaissance art or of the World Cup, there’s something for everyone!
+                    Quizzing is your ticket to exploring a world of fascinating topics. It goes way
+                    beyond textbooks, diving into everything from ancient civilizations to the
+                    latest TikTok trends. Modern quizzes connect the dots between history, pop
+                    culture, sports, and even the quirkiest facts you never knew existed. Whether
+                    you're captivated by Renaissance art or World Cup fever, there's always a
+                    question that will spark your curiosity!
                   </p>
-
-                  <a href="#" class="btn-text" style="color: #a07cc5">
-                    <span class="span">Here's a fun question!</span>
-
-                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                  </a>
 
                 </div>
 
                 <figure class="card-banner" data-reveal="right">
-                  <img src="./assets/images/quiz_image_1.png" width="450" height="370" loading="lazy" alt="Web Design"
-                    style="padding-block-end: var(--padding)" class="w-100">
+                  <img src="./assets/images/image-stage.png" width="450" height="370" loading="lazy"
+                    alt="Quiz Auditorium" style="padding-block-end: var(--padding)" class="w-100">
                 </figure>
 
               </div>
@@ -204,26 +183,22 @@
 
                 <div class="card-content" data-reveal="right">
 
-                  <p class=" card-tag" style="color: #3f78e0">Working Together</p>
+                  <p class=" card-tag" style="color: #3f78e0">Teaming Up for Triumph</p>
 
                   <h3 class="h3 card-title">Teamwork and Collaboration</h3>
 
                   <p class="card-text">
-                    Quizzing is great for team building as it brings people working in groups to arrive at solutions. 
-                    Several questions often find answers pieced together by various team members with different areas of expertise.
+                    It's not just what you know; it's what you and your team can figure out
+                    together! Quizzing fosters collaboration, as teams combine their unique
+                    strengths to crack even the toughest questions. Each answer is a mosaic of insights
+                    from different minds, making teamwork essential to reaching the top.
                   </p>
-
-                  <a href="#" class="btn-text" style="color: #3f78e0">
-                    <span class="span">See Project</span>
-
-                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                  </a>
 
                 </div>
 
                 <figure class="card-banner" data-reveal="left">
-                  <img src="./assets/images/quiz_image_4.png" width="600" height="367" loading="lazy" alt="Web Design"
-                    class="w-100">
+                  <img src="./assets/images/image-team.png" width="600" height="367" loading="lazy"
+                    alt="Working Together" class="w-100">
                 </figure>
 
               </div>
@@ -234,25 +209,21 @@
 
                 <div class="card-content" data-reveal="left">
 
-                  <p class=" card-tag" style="color: #7cb798">A Sense of Achievement</p>
+                  <p class=" card-tag" style="color: #7cb798">The Thrill of the Challenge</p>
 
-                  <h3 class="h3 card-title">Competitive Spirit</h3>
+                  <h3 class="h3 card-title">Chasing Victory</h3>
 
                   <p class="card-text">
-                    Quizzing brings an adrenaline rush with a sense of achievement as teams are crowned winners over rounds of several questions.
+                    There's nothing quite like the buzz of quizzing—the thrill of racing against
+                    the clock, the adrenaline-pumping moments when you figure out the answer, and the
+                    sweet taste of victory when your team comes out on top. It's an event where the
+                    stakes are high, and every round is a chance to prove your mettle.
                   </p>
-
-                  <a href="#" class="btn-text" style="color: #7cb798">
-                    <span class="span">See Project</span>
-
-                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                  </a>
 
                 </div>
 
                 <figure class="card-banner" data-reveal="right">
-                  <img src="./assets/images/quiz_image_3.jpg" width="600" height="340" loading="lazy" alt="Web Design"
-                    class="w-100">
+                  <img src="./assets/images/image-win.jpg" loading="lazy" alt="Winning Prizes" class="w-100">
                 </figure>
 
               </div>
@@ -263,26 +234,21 @@
 
                 <div class="card-content" data-reveal="left">
 
-                  <p class=" card-tag" style="color: #d16b86">Something for Everyone</p>
+                  <p class=" card-tag" style="color: #d16b86">Quizzing Like Never Before</p>
 
-                  <h3 class="h3 card-title">Engaging Formats</h3>
+                  <h3 class="h3 card-title">Innovative Formats</h3>
 
                   <p class="card-text">
-                    Quizzing provides an engaging atmosphere with questions spanning a wide range of topics. 
-                    There's something for everyone and keeps everyone intrigued throughout the event.
+                    Forget boring old formats; quizzing today is about keeping you on your toes with
+                    interactive and captivating styles. With questions that jump between different
+                    themes and levels of difficulty, there's never a dull moment. Each round
+                    challenges you in new ways, keeping the entire audience hooked and engaged.
                   </p>
-
-                  <a href="#" class="btn-text" style="color: #d16b86">
-                    <span class="span">See Project</span>
-
-                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                  </a>
 
                 </div>
 
                 <figure class="card-banner" data-reveal="right">
-                  <img src="./assets/images/quiz_image_2.jpg" width="620" height="350" loading="lazy" alt="Mobile Design"
-                    class="w-100">
+                  <img src="./assets/images/image-solve.jpg" loading="lazy" alt="Exciting Formats" class="w-100">
                 </figure>
 
               </div>
@@ -307,7 +273,7 @@
               <h2 class="h2 section-title">Where do I fit in?</h2>
 
               <p class="section-text">
-                I craft unique and exciting quiz formats that keep participants engaged and entertained. 
+                I craft unique and exciting quiz formats that keep participants engaged and entertained.
                 From traditional quizzes to interactive formats, I ensure every event is a fresh experience.
               </p>
             </div>
@@ -388,7 +354,8 @@
                 <h3 class="h4 card-title">Audience</h3>
 
                 <p class="card-text">
-                  I have hosted quizzes for schools, universities and for corporate audiences previously for 100+ participants.
+                  I have hosted quizzes for schools, universities and for corporate audiences previously for 100+
+                  participants.
                 </p>
 
               </div>
@@ -404,7 +371,8 @@
                 <h3 class="h4 card-title">Topics</h3>
 
                 <p class="card-text">
-                  I can host quizzes on any topic you have. This could be a general quiz, Singapore themed or anything anything. More recently I hosted an egg themed quiz for an online community.
+                  I can host quizzes on any topic you have. This could be a general quiz, Singapore themed or anything
+                  anything. More recently I hosted an egg themed quiz for an online community.
                 </p>
 
               </div>
@@ -421,7 +389,8 @@
                 <h3 class="h4 card-title">Venue</h3>
 
                 <p class="card-text">
-                  With quizzing being super fun as a live event, all the venue requires is a seating capacity for the people along with a screen and a projector to display the quizzes on.
+                  With quizzing being super fun as a live event, all the venue requires is a seating capacity for the
+                  people along with a screen and a projector to display the quizzes on.
                 </p>
 
               </div>
@@ -437,7 +406,8 @@
                 <h3 class="h4 card-title">Format</h3>
 
                 <p class="card-text">
-                  Standard quizzes have two rounds, a preliminary written round to select the top 6-8 teams. This is followed by a final round with the top teams battling it out on stage.
+                  Standard quizzes have two rounds, a preliminary written round to select the top 6-8 teams. This is
+                  followed by a final round with the top teams battling it out on stage.
                 </p>
 
               </div>
@@ -461,7 +431,8 @@
               <h2 class="h2 section-title" id="project-label">Quizzing Experience</h2>
 
               <p class="section-text">
-                Having been an avid quizzer for 15+ years, I've hosted quizzes across India, Hong Kong and Singapore too!
+                Having been an avid quizzer for 15+ years, I've hosted quizzes across India, Hong Kong and Singapore
+                too!
               </p>
             </div>
 
@@ -480,7 +451,8 @@
 
                   <p class="card-text">
                     Singapore is not foreign to quizzing, with several quizzes having taken place in the past.
-                Seeing no resurgence after Covid measures, this would be a great time to bring back quizzing to the Singapore audience.
+                    Seeing no resurgence after Covid measures, this would be a great time to bring back quizzing to the
+                    Singapore audience.
                   </p>
 
                   <a href="#" class="btn-text" style="color: #a07cc5">
@@ -534,9 +506,9 @@
 
                 <div class="card-content" data-reveal="left">
 
-                  <p class=" card-tag" style="color: #7cb798">Web Design</p>
+                  <p class=" card-tag" style="color: #7cb798">Rich Traditions</p>
 
-                  <h3 class="h3 card-title">Missio Theme</h3>
+                  <h3 class="h3 card-title">Culture of Quizzing</h3>
 
                   <p class="card-text">
                     Maecenas faucibus mollis interdum sed posuere porta consectetur cursus porta lobortis. Scelerisque
@@ -661,7 +633,7 @@
 
       <ul class="social-list">
 
-        <p>Socials: </p>
+        <p>Contact: </p>
 
         <li>
           <a href="https://www.instagram.com/astronights.shubhankar/" class="social-link">
@@ -675,23 +647,20 @@
           </a>
         </li>
 
+        <li>
+          <a href="tel:6594463174" class="social-link">
+            <ion-icon name="call-outline"></ion-icon>
+          </a>
+        </li>
+
       </ul>
 
     </div>
   </footer>
 
 
-
-
-
-  <!-- 
-    - custom js link
-  -->
   <script src="./assets/js/script.js"></script>
 
-  <!-- 
-    - ionicon link
-  -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
