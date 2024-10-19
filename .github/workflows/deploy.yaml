@@ -26,6 +26,8 @@ jobs:
       - name: Build
         run: |
           npm run build
+        env:
+          VITE_EMAILJS_PUBLIC_KEY: ${{ secrets.VITE_EMAILJS_PUBLIC_KEY }}
 
       - name: Uploading production-ready build files
         uses: actions/upload-artifact@v4

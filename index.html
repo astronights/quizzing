@@ -26,8 +26,12 @@
   <link rel="preload" as="image" href="./assets/images/image-sg-quiz.png">
   <link rel="preload" as="image" href="./assets/images/image-testimonial.png">
 
-  <script data-goatcounter="https://astronights.goatcounter.com/count"
-        async src="https://gc.zgo.at/count.js"></script>
+  <script>
+    window.goatcounter = {
+      path: function (p) { return location.host + p }
+    }
+  </script>
+  <script data-goatcounter="https://astronights.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 
 </head>
 
@@ -681,13 +685,13 @@
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
- 
+
   <script type="module">
-    (function () {
-      emailjs.init({
-        publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
-      });
-    })();
+      (function () {
+        emailjs.init({
+          publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+        });
+      })();
   </script>
   <script type="module" src="./main.js"></script>
 
