@@ -1,11 +1,12 @@
 # Quizzing with Shubhankar
 
-This repository is currently a Work In Progress - a portfolio website for myself as a quiz host.
+This repository is a portfolio website for myself as a freelance quiz host.
 
-## Running the file locally
+## Running the app locally
 
-You can view the webpage locally, starting a server with Python.
+You can view the webpage locally, starting a server with Vite.
 
 ```bash
-python -m http.server
+npm install
+npm run dev
 ```

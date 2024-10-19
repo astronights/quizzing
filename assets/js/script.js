@@ -68,24 +68,25 @@ window.addEventListener("load", reveal);
  * FORM SUBMIT
  */
 
-document.querySelector('.contact-form').addEventListener('submit', function(event) {
-  event.preventDefault(); // Prevent the default form submission
+document.addEventListener('DOMContentLoaded', function () {
+  const form = document.querySelector('.contact-form');
+  form.addEventListener('submit', function (event) {
+    event.preventDefault();
 
-  // Collect form data
-  const formData = {
-    name: event.target.name.value,
-    email_address: event.target.email_address.value,
-    message: event.target.message.value,
-  };
+    const formData = {
+      name: event.target.name.value,
+      email_address: event.target.email_address.value,
+      message: event.target.message.value,
+    };
 
-  // Send the email using EmailJS
-  emailjs.send('service_dllyuxo', 'template_qvu7vn6', formData)
-    .then(function(response) {
-      alert('Message sent successfully!'); // Success message
-      console.log('SUCCESS!', response.status, response.text);
-      event.target.reset(); // Clear the form after submission
-    }, function(error) {
-      alert('Failed to send message, please try again.'); // Error message
-      console.log('FAILED...', error);
-    });
+    emailjs.send('service_dllyuxo', 'template_qvu7vn6', formData)
+      .then(function (response) {
+        alert('Message sent successfully!');
+        console.log('SUCCESS!', response.status, response.text);
+        event.target.reset();
+      }, function (error) {
+        alert('Failed to send message, please try again.');
+        console.log('FAILED...', error);
+      });
+  });
 });
