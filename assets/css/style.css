@@ -146,6 +146,7 @@ body {
   color: var(--black-coral);
   font-size: 1.6rem;
   line-height: 1.7;
+  overflow-x: hidden;
 }
 
 body.nav-active {
@@ -663,7 +664,7 @@ textarea.input-field {
 
 
 .img-logo {
-  width: 40%;
+  width: 50%;
 }
 
 
