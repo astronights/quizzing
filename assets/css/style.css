@@ -555,6 +555,9 @@ textarea.input-field {
 .footer .social-link { color: var(--charcoal); }
 
 
+.img-logo {
+  width: 40%;
+}
 
 
 
@@ -567,6 +570,10 @@ textarea.input-field {
  */
 
 @media (min-width: 575px) {
+
+  .img-logo {
+    width: 20%;
+  }
 
   /**
    * REUSED STYLE
