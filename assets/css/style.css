@@ -386,8 +386,8 @@ body.nav-active { overflow: hidden; }
 
 .hero .shape {
   position: absolute;
-  bottom: 8%;
-  right: -5%;
+  bottom: 6%;
+  right: 0%;
   filter: drop-shadow(var(--shadow-2));
 }
 
